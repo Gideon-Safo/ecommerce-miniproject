@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+<head>
+    <meta charset=" UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Berry Fitness</title>
+    <link rel="stylesheet" href="style.css">   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="IMAGES/HEIF Image.HEIC" width="125px">
+                <p>BERRY FITNESS</p>
+            </div>
+        
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="website.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Account</a></li>
+                    <li><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+                </ul>
+                <div class="search">
+                    <form>
+                        <input type="text" placeholder="Search...">
+                       
+                    </form>
+                   </div>
+    
+            </nav>
+            
+            <img src="IMAGES/menulogo.png" class="menu-icon" 
+            onclick="menutoggle()">
+        </div>
+    </div> 
+</div>      
+        <div class="wrapper">
+            <div class="testimonial">
+                <article>
+                    <div class="row row-2">
+                        <h2 class="title">About Us</h2>
+                       
+                    </div>
+                    
+                    <img src="IMAGES/rev1.png">
+                    
+                    <blockquote>
+                    
+                        <p>Gideon Safo Jnr <br> -------CEO-------</p>
+                        <br>
+                        <br>
+                    Welcome to Berry Fitness GH, your ultimate destination for high-quality sportswear and gym equipment in Ghana. We believe that fitness is more than just a routine—it’s a lifestyle. That’s why we are committed to providing top-notch activewear and durable workout gear to support athletes, fitness enthusiasts, and beginners on their journey to better health and performance.
+                    
+                    At Berry Fitness GH, we offer a wide range of premium gym wear designed for comfort, style, and maximum flexibility, ensuring you look and feel your best during every workout. Our collection includes everything from moisture-wicking leggings and breathable t-shirts to compression wear and training shoes. In addition to apparel, we provide high-performance gym equipment, including dumbbells, resistance bands, treadmills, weightlifting accessories, and much more—all carefully selected to help you build strength, endurance, and agility.
+                    
+                    Our mission is to empower individuals to reach their fitness goals by making quality fitness gear accessible and affordable. Whether you’re training at home, hitting the gym, or engaging in outdoor workouts, Berry Fitness GH has everything you need to stay motivated and push your limits.
+                    
+                    Join our fitness community today and take the first step toward a stronger, healthier you. Berry Fitness GH—Fuel Your Passion, Elevate Your Performance!"
+                    </blockquote>
+                </article>
+        <div class="wrapper">
+            <video autoplay loop muted plays-inline>
+                <source src="IMAGES/New Project.mp4" type="video/mp4">
+            </video>
+        </div>
+        <a href="website.html" class="btn">Go To Store &#8594;</a>
+            </div>
+
+</body>     
+<!------footer--------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download our app for android and iOS mobile phone</p>
+                <div class="app-logo">
+                    <img src="IMAGES/footplay.png">
+                    <img src="IMAGES/footapp.png">
+                </div>
+
+            </div>
+            <div class="footer-col-2">
+                <img src="IMAGES/HEIF Image.HEIC">
+               
+
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.instagram.com">Instagram</a></li>
+                    <li><a href="https://www.youtube.com">Youtube</a></li>
+                    <li><a href="https://www.x.com">X</a></li>
+                </ul>
+                
+
+            </div>
+
+        </div>
+        <hr>
+        <p class="Copyright">© Copyright 2025 DCIT209 Mini Project</p>
+    </div>
+</div>
+   <!-------jscript fot toggle menu-------->
+   <script>
+    var MenuItems=document.getElementById("MenuItems");
+    MenuItems.style.maxHeight= "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px"){
+            MenuItems.style.maxHeight="200px";
+        }
+        else 
+        {
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+   </script>
+</body>
